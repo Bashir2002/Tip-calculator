@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    height: 150vh;
+    /* background-color: red; */
+}
+.container{
+    width: 275px;
+    display: block;
+    background-color: hsl(183, 100%, 15%);
+    padding: px 0;
+
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.content{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    
+
+}
+.content1{
+    height: 270px;
+
+}
+.content label{
+    display: block;
+    margin: 5px 0;
+    color: hsl(186, 14%, 43%);
+}
+.card1{
+    height: 60px;
+}
+.card1 input{
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    padding-right: 20px;
+    position: relative;
+    outline-color: green;
+    border: 0;
+    color:  hsl(183, 100%, 15%)    ;
+    background-color: hsl(189, 41%, 97%);
+}
+input:invalid{
+    color: red;
+    border-color: red;
+}
+.card1 input::placeholder{
+    text-align: right;
+    color:  hsl(183, 100%, 15%)    ;
+}
+.content1 img{
+    position: relative;
+    top: -25px;
+    left: 10px;
+}
+.tip{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 6%;
+}
+.numb{
+    background-color: hsl(183, 100%, 15%);
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    /* padding: 5px 0; */
+    color: white;
+}
+.numb input{
+    width: 100%;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+
+
+}
+.numb input:hover{
+    background-color: hsl(185, 41%, 84%);
+}
+.numb input:focus{
+    background-color:  hsl(185, 41%, 84%)    ;
+    color: hsl(186, 14%, 43%);
+}
+.active{
+    background-color:  hsl(185, 41%, 84%)    ;
+
+}
+.numb2 input{
+    text-align: right;
+    outline-color:  hsl(183, 100%, 15%);
+}
+.numb2{
+    background-color: hsl(189, 41%, 97%)
+    ;
+}
+.card2{
+    margin-bottom: 20px;
+}
+.tip input{
+    width:100%;
+    background-color: inherit;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    /* outline: none; */
+    padding-right:10px ;
+}
+.tip input::placeholder{
+    font-size: 15px;
+    color:  hsl(183, 100%, 15%)    ;
+    text-align: right;
+}
+.content2{
+    padding: 15px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    height: 250px;
+}
+.card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.card31{
+    color: white;
+    font-size: 15px;
+}
+.card32{
+    font-size: 24px;
+    color: hsl(185, 41%, 84%);
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    padding: 35px auto;
+    border-radius: 7px;
+    border: 0;
+    margin-top: 80px;
+    background-color:   hsl(186, 14%, 43%)    ;
+    cursor: pointer;
+    color: ;
+}
+button:hover{
+    background-color:  hsl(185, 41%, 84%)    ;
+    color:  hsl(186, 14%, 43%)    ;
+}
+@media only screen and (min-width: 1000px) {
+    .container{
+        width: 1005px;
+        display: block;
+        background-color: hsl(185, 41%, 84%);
+        padding: px 0; 
+    }
+    .content{
+        width: 600px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 47% 47%;
+        gap: 6%;
+        /* background-color: hsl(184, 14%, 56%); */
+        padding: px 0;
+        margin-bottom: 50px;
+    
+    }
+    .tip{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 5%;
+    }
+    
+    
+}
